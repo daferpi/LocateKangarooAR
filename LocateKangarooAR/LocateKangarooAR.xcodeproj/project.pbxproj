@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509E436A9E2D4C6336112C67 /* Pods_LocateKangarooARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F45D215A4F90C26FAA54C0B /* Pods_LocateKangarooARUITests.framework */; };
+		B247C20614BEC1F7F6FB7507 /* Pods_LocateKangarooAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AB34B60AE6FF9CE1F976C /* Pods_LocateKangarooAR.framework */; };
+		FF2006371E393CF000CFD1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2006361E393CF000CFD1AC /* AppDelegate.swift */; };
+		FF2006391E393CF000CFD1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2006381E393CF000CFD1AC /* ViewController.swift */; };
+		FF20063C1E393CF000CFD1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF20063A1E393CF000CFD1AC /* Main.storyboard */; };
+		FF20063E1E393CF000CFD1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF20063D1E393CF000CFD1AC /* Assets.xcassets */; };
+		FF2006411E393CF000CFD1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF20063F1E393CF000CFD1AC /* LaunchScreen.storyboard */; };
+		FF20064C1E393CF000CFD1AC /* LocateKangarooARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF20064B1E393CF000CFD1AC /* LocateKangarooARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF2006481E393CF000CFD1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF20062B1E393CEF00CFD1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2006321E393CEF00CFD1AC;
+			remoteInfo = LocateKangarooAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039AB34B60AE6FF9CE1F976C /* Pods_LocateKangarooAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateKangarooAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F45D215A4F90C26FAA54C0B /* Pods_LocateKangarooARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateKangarooARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81ACC921E0FAA1417495D61 /* Pods-LocateKangarooARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooARUITests/Pods-LocateKangarooARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4098C45CAF78D0C44174C44 /* Pods-LocateKangarooARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooARUITests/Pods-LocateKangarooARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFF77CB055971BD1B76771E /* Pods-LocateKangarooAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A5F043F98C7980CBA66488 /* Pods-LocateKangarooAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR.release.xcconfig"; sourceTree = "<group>"; };
+		FF2006331E393CEF00CFD1AC /* LocateKangarooAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateKangarooAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2006361E393CF000CFD1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2006381E393CF000CFD1AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF20063B1E393CF000CFD1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF20063D1E393CF000CFD1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2006401E393CF000CFD1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2006421E393CF000CFD1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2006471E393CF000CFD1AC /* LocateKangarooARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocateKangarooARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF20064B1E393CF000CFD1AC /* LocateKangarooARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateKangarooARUITests.swift; sourceTree = "<group>"; };
+		FF20064D1E393CF000CFD1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2006301E393CEF00CFD1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247C20614BEC1F7F6FB7507 /* Pods_LocateKangarooAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2006441E393CF000CFD1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509E436A9E2D4C6336112C67 /* Pods_LocateKangarooARUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D07DD7636D46835EE2E0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				039AB34B60AE6FF9CE1F976C /* Pods_LocateKangarooAR.framework */,
+				6F45D215A4F90C26FAA54C0B /* Pods_LocateKangarooARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAA0D94A9B6843ED27F9095B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF77CB055971BD1B76771E /* Pods-LocateKangarooAR.debug.xcconfig */,
+				C2A5F043F98C7980CBA66488 /* Pods-LocateKangarooAR.release.xcconfig */,
+				A81ACC921E0FAA1417495D61 /* Pods-LocateKangarooARUITests.debug.xcconfig */,
+				B4098C45CAF78D0C44174C44 /* Pods-LocateKangarooARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF20062A1E393CEF00CFD1AC = {
+			isa = PBXGroup;
+			children = (
+				FF2006351E393CEF00CFD1AC /* LocateKangarooAR */,
+				FF20064A1E393CF000CFD1AC /* LocateKangarooARUITests */,
+				FF2006341E393CEF00CFD1AC /* Products */,
+				DAA0D94A9B6843ED27F9095B /* Pods */,
+				55D07DD7636D46835EE2E0EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2006341E393CEF00CFD1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2006331E393CEF00CFD1AC /* LocateKangarooAR.app */,
+				FF2006471E393CF000CFD1AC /* LocateKangarooARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2006351E393CEF00CFD1AC /* LocateKangarooAR */ = {
+			isa = PBXGroup;
+			children = (
+				FF2006361E393CF000CFD1AC /* AppDelegate.swift */,
+				FF2006381E393CF000CFD1AC /* ViewController.swift */,
+				FF20063A1E393CF000CFD1AC /* Main.storyboard */,
+				FF20063D1E393CF000CFD1AC /* Assets.xcassets */,
+				FF20063F1E393CF000CFD1AC /* LaunchScreen.storyboard */,
+				FF2006421E393CF000CFD1AC /* Info.plist */,
+			);
+			path = LocateKangarooAR;
+			sourceTree = "<group>";
+		};
+		FF20064A1E393CF000CFD1AC /* LocateKangarooARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF20064B1E393CF000CFD1AC /* LocateKangarooARUITests.swift */,
+				FF20064D1E393CF000CFD1AC /* Info.plist */,
+			);
+			path = LocateKangarooARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2006321E393CEF00CFD1AC /* LocateKangarooAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2006501E393CF000CFD1AC /* Build configuration list for PBXNativeTarget "LocateKangarooAR" */;
+			buildPhases = (
+				9CE0A8081B9E70153870A03A /* [CP] Check Pods Manifest.lock */,
+				FF20062F1E393CEF00CFD1AC /* Sources */,
+				FF2006301E393CEF00CFD1AC /* Frameworks */,
+				FF2006311E393CEF00CFD1AC /* Resources */,
+				E34D9AB7C4C996794AB2A2A3 /* [CP] Embed Pods Frameworks */,
+				E2429B3C3ADF27E4EBE51B56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocateKangarooAR;
+			productName = LocateKangarooAR;
+			productReference = FF2006331E393CEF00CFD1AC /* LocateKangarooAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF2006461E393CF000CFD1AC /* LocateKangarooARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2006531E393CF000CFD1AC /* Build configuration list for PBXNativeTarget "LocateKangarooARUITests" */;
+			buildPhases = (
+				0D805AE81843C24A0D1B4891 /* [CP] Check Pods Manifest.lock */,
+				FF2006431E393CF000CFD1AC /* Sources */,
+				FF2006441E393CF000CFD1AC /* Frameworks */,
+				FF2006451E393CF000CFD1AC /* Resources */,
+				30617953E90D5FCAED138869 /* [CP] Embed Pods Frameworks */,
+				63B233B8383DE8F4D510D22C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2006491E393CF000CFD1AC /* PBXTargetDependency */,
+			);
+			name = LocateKangarooARUITests;
+			productName = LocateKangarooARUITests;
+			productReference = FF2006471E393CF000CFD1AC /* LocateKangarooARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF20062B1E393CEF00CFD1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abel Fernandez";
+				TargetAttributes = {
+					FF2006321E393CEF00CFD1AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YBZ3D4MK87;
+						ProvisioningStyle = Automatic;
+					};
+					FF2006461E393CF000CFD1AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YBZ3D4MK87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF2006321E393CEF00CFD1AC;
+					};
+				};
+			};
+			buildConfigurationList = FF20062E1E393CEF00CFD1AC /* Build configuration list for PBXProject "LocateKangarooAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF20062A1E393CEF00CFD1AC;
+			productRefGroup = FF2006341E393CEF00CFD1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2006321E393CEF00CFD1AC /* LocateKangarooAR */,
+				FF2006461E393CF000CFD1AC /* LocateKangarooARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2006311E393CEF00CFD1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2006411E393CF000CFD1AC /* LaunchScreen.storyboard in Resources */,
+				FF20063E1E393CF000CFD1AC /* Assets.xcassets in Resources */,
+				FF20063C1E393CF000CFD1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2006451E393CF000CFD1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D805AE81843C24A0D1B4891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30617953E90D5FCAED138869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateKangarooARUITests/Pods-LocateKangarooARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B233B8383DE8F4D510D22C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateKangarooARUITests/Pods-LocateKangarooARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE0A8081B9E70153870A03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2429B3C3ADF27E4EBE51B56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34D9AB7C4C996794AB2A2A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF20062F1E393CEF00CFD1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2006391E393CF000CFD1AC /* ViewController.swift in Sources */,
+				FF2006371E393CF000CFD1AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2006431E393CF000CFD1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF20064C1E393CF000CFD1AC /* LocateKangarooARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF2006491E393CF000CFD1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF2006321E393CEF00CFD1AC /* LocateKangarooAR */;
+			targetProxy = FF2006481E393CF000CFD1AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF20063A1E393CF000CFD1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF20063B1E393CF000CFD1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF20063F1E393CF000CFD1AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2006401E393CF000CFD1AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF20064E1E393CF000CFD1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF20064F1E393CF000CFD1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2006511E393CF000CFD1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFF77CB055971BD1B76771E /* Pods-LocateKangarooAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBZ3D4MK87;
+				INFOPLIST_FILE = LocateKangarooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.daferpi.LocateKangarooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF2006521E393CF000CFD1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A5F043F98C7980CBA66488 /* Pods-LocateKangarooAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBZ3D4MK87;
+				INFOPLIST_FILE = LocateKangarooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.daferpi.LocateKangarooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF2006541E393CF000CFD1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81ACC921E0FAA1417495D61 /* Pods-LocateKangarooARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = YBZ3D4MK87;
+				INFOPLIST_FILE = LocateKangarooARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.daferpi.LocateKangarooARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LocateKangarooAR;
+			};
+			name = Debug;
+		};
+		FF2006551E393CF000CFD1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4098C45CAF78D0C44174C44 /* Pods-LocateKangarooARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = YBZ3D4MK87;
+				INFOPLIST_FILE = LocateKangarooARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.daferpi.LocateKangarooARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LocateKangarooAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF20062E1E393CEF00CFD1AC /* Build configuration list for PBXProject "LocateKangarooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF20064E1E393CF000CFD1AC /* Debug */,
+				FF20064F1E393CF000CFD1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2006501E393CF000CFD1AC /* Build configuration list for PBXNativeTarget "LocateKangarooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2006511E393CF000CFD1AC /* Debug */,
+				FF2006521E393CF000CFD1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2006531E393CF000CFD1AC /* Build configuration list for PBXNativeTarget "LocateKangarooARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2006541E393CF000CFD1AC /* Debug */,
+				FF2006551E393CF000CFD1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF20062B1E393CEF00CFD1AC /* Project object */;
+}
