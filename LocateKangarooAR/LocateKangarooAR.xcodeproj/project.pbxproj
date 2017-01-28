@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		509E436A9E2D4C6336112C67 /* Pods_LocateKangarooARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F45D215A4F90C26FAA54C0B /* Pods_LocateKangarooARUITests.framework */; };
 		B247C20614BEC1F7F6FB7507 /* Pods_LocateKangarooAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039AB34B60AE6FF9CE1F976C /* Pods_LocateKangarooAR.framework */; };
+		FF08CEEB1E3CAFDC00DE4E2F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08CEEA1E3CAFDC00DE4E2F /* MapVC.swift */; };
+		FF08CEEF1E3CB01800DE4E2F /* CameraManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08CEEE1E3CB01800DE4E2F /* CameraManagerVC.swift */; };
 		FF2006371E393CF000CFD1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2006361E393CF000CFD1AC /* AppDelegate.swift */; };
-		FF2006391E393CF000CFD1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2006381E393CF000CFD1AC /* ViewController.swift */; };
 		FF20063C1E393CF000CFD1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF20063A1E393CF000CFD1AC /* Main.storyboard */; };
 		FF20063E1E393CF000CFD1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF20063D1E393CF000CFD1AC /* Assets.xcassets */; };
 		FF2006411E393CF000CFD1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF20063F1E393CF000CFD1AC /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 		B4098C45CAF78D0C44174C44 /* Pods-LocateKangarooARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooARUITests/Pods-LocateKangarooARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BEFF77CB055971BD1B76771E /* Pods-LocateKangarooAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR.debug.xcconfig"; sourceTree = "<group>"; };
 		C2A5F043F98C7980CBA66488 /* Pods-LocateKangarooAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateKangarooAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateKangarooAR/Pods-LocateKangarooAR.release.xcconfig"; sourceTree = "<group>"; };
+		FF08CEEA1E3CAFDC00DE4E2F /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		FF08CEEE1E3CB01800DE4E2F /* CameraManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManagerVC.swift; sourceTree = "<group>"; };
 		FF2006331E393CEF00CFD1AC /* LocateKangarooAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateKangarooAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2006361E393CF000CFD1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF2006381E393CF000CFD1AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF20063B1E393CF000CFD1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF20063D1E393CF000CFD1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF2006401E393CF000CFD1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FF08CEE81E3CAF6000DE4E2F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF08CEE91E3CAF9A00DE4E2F /* viewControllers */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		FF08CEE91E3CAF9A00DE4E2F /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF08CEEA1E3CAFDC00DE4E2F /* MapVC.swift */,
+				FF08CEEE1E3CB01800DE4E2F /* CameraManagerVC.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 		FF20062A1E393CEF00CFD1AC = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				FF2006361E393CF000CFD1AC /* AppDelegate.swift */,
-				FF2006381E393CF000CFD1AC /* ViewController.swift */,
 				FF20063A1E393CF000CFD1AC /* Main.storyboard */,
 				FF20063D1E393CF000CFD1AC /* Assets.xcassets */,
 				FF20063F1E393CF000CFD1AC /* LaunchScreen.storyboard */,
 				FF2006421E393CF000CFD1AC /* Info.plist */,
+				FF08CEE81E3CAF6000DE4E2F /* classes */,
 			);
 			path = LocateKangarooAR;
 			sourceTree = "<group>";
@@ -332,8 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2006391E393CF000CFD1AC /* ViewController.swift in Sources */,
 				FF2006371E393CF000CFD1AC /* AppDelegate.swift in Sources */,
+				FF08CEEB1E3CAFDC00DE4E2F /* MapVC.swift in Sources */,
+				FF08CEEF1E3CB01800DE4E2F /* CameraManagerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
